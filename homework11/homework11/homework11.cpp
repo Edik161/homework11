@@ -4,6 +4,7 @@
 #include "homework11.h"
 #include <gsl/gsl>
 #include <iostream>
+#include <algorithm> 
 using namespace std;
 using namespace gsl;
 // Удаление первого элемента
@@ -198,4 +199,5 @@ int main()
     delete[] difference;
     
     return 0;
+
 }
